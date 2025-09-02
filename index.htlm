@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Aptos', 'Calibri', 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            margin-bottom: 40px;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: normal;
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        .intro {
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+
+        .intro a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .intro a:hover {
+            text-decoration: underline;
+        }
+
+        .cv-link {
+            margin: 20px 0;
+            font-size: 1rem;
+        }
+
+        .cv-link a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .cv-link a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #000;
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+        }
+
+        .paper {
+            margin-bottom: 30px;
+        }
+
+        .paper-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #000;
+        }
+
+        .paper-title a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+
+        .paper-authors {
+            font-style: italic;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .paper-authors a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .paper-authors a:hover {
+            text-decoration: underline;
+        }
+
+        .paper-abstract {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .paper-presentations {
+            font-size: 0.95rem;
+            color: #555;
+            font-style: italic;
+        }
+
+        .external-link {
+            font-size: 0.95rem;
+            margin-top: 8px;
+        }
+
+        .external-link a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .external-link a:hover {
+            text-decoration: underline;
+        }
+
+        .separator {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 40px 0;
+        }
+
+        .work-in-progress {
+            margin-top: 40px;
+        }
+
+        .wip-title {
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+            
+            .portrait, .portrait-placeholder {
+                width: 150px;
+                height: 180px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .intro {
+                font-size: 0.95rem;
+                text-align: justify;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[Your Name]</h1>
+        
+        <div class="social-links">
+            <a href="https://x.com/[your_x_handle]" target="_blank">X</a>
+            <a href="https://linkedin.com/in/[your-linkedin-profile]" target="_blank">LinkedIn</a>
+        </div>
+        
+        <div class="intro">
+            I am [Your Current Position] at <a href="[Institution URL]" target="_blank">[Institution Name]</a>. My research interests are in [your main field] with a specific emphasis on [your specialization]. I am currently interested in [current research focus]. I obtained my PhD in [Field] in [Month Year] from the <a href="[University URL]" target="_blank">[University Name]</a>. During my doctoral studies, I worked as [any relevant positions/internships].
+        </div>
+        <div class="cv-link">
+            Please find here my <a href="files/CV_[YourName].pdf" target="_blank">CV</a>.
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2 class="section-title">Working Papers</h2>
+            
+            <div class="paper">
+                <div class="paper-title">
+                    <a href="files/[paper1_filename].pdf" target="_blank">[Your First Paper Title]: [Subtitle if applicable]</a>
+                </div>
+                <div class="paper-authors">
+                    (with <a href="[coauthor1_url]" target="_blank">[Co-author 1 Name]</a> and <a href="[coauthor2_url]" target="_blank">[Co-author 2 Name]</a>)
+                </div>
+                <div class="paper-abstract">
+                    In this paper, we investigate [brief description of your research question and approach]. We develop and estimate [methodology] using [data description] for the sample [time period]. We conduct [analysis type] to assess [what you're measuring]. Our [analysis type] indicates that [key findings]. However, [important caveat or limitation]. Our [additional analysis] indicates that [additional findings]. Lastly, we find that [final key result].
+                </div>
+                <div class="paper-presentations">
+                    Presented at: [Conference 1] ([Month Year]), [Conference 2] ([Month Year]), [Conference 3], [etc.].
+                </div>
+                <div class="external-link">
+                    <a href="[external_link_if_applicable]" target="_blank">[External Repository/Working Paper Series]</a>
+                </div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title">
+                    <a href="files/[paper2_filename].pdf" target="_blank">[Your Second Paper Title]: [Subtitle]</a>
+                </div>
+                <div class="paper-authors">
+                    (with <a href="[coauthor_url]" target="_blank">[Co-author Name]</a> and <a href="[coauthor2_url]" target="_blank">[Co-author 2 Name]</a>)
+                </div>
+                <div class="paper-abstract">
+                    In this paper, we provide new evidence on [research topic] and their [specific focus]. First, we develop [theoretical model] which is solved using [methods]. Through [analysis method], we show that [key theoretical finding]. To validate these findings, we provide [empirical evidence type] from [data source]. Our analysis reveals that [empirical finding 1]. Additionally, and in contrast with results from our theoretical model, we find that [contrasting empirical finding]. Finally, [additional analysis] evidence supports [conclusion].
+                </div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section class="section work-in-progress">
+            <div class="wip-title">Work in progress</div>
+            
+            <div class="paper">
+                <div class="paper-title">
+                    <a href="files/[wip_filename].pdf" target="_blank">[Work in Progress Title]</a>
+                </div>
+                <div class="paper-authors">
+                    (with <a href="[coauthor_url]" target="_blank">[Co-author Name]</a>)
+                </div>
+                <div class="paper-abstract">
+                    This work explores [research question] in [context/country/time period]. Our findings suggest that [preliminary findings]. To further investigate these findings, we analyse this relationship through the lens of [theoretical framework]. This analysis contributes to literature by [contribution 1], offering insights into [contribution 2].
+                </div>
+                <div class="paper-presentations">
+                    Presented at: [Conference/Workshop 1] ([Month Year]) and [Conference/Workshop 2] ([format, Month Year]).
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Simple fade-in animation on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.5s ease-in';
+            
+            setTimeout(function() {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+
+        // Smooth scrolling for any internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
